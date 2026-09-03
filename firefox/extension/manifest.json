@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Beresta Clipper",
+  "version": "0.1.0",
+  "description": "Отправляет открытую страницу в Beresta — статьёй во «Входящие».",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "clipper@beresta.page",
+      "strict_min_version": "115.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "notifications",
+    "storage",
+    "http://127.0.0.1/*"
+  ],
+  "browser_action": {
+    "default_title": "В Beresta"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "options_ui": {
+    "page": "options.html"
+  }
+}

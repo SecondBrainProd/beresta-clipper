@@ -1,0 +1,12 @@
+{
+  "name": "firefox-clipper",
+  "private": true,
+  "description": "Расширение Firefox: открытая страница уезжает в Beresta статьёй во «Входящие»",
+  "license": "MIT",
+  "scripts": {
+    "lint": "web-ext lint --source-dir extension"
+  },
+  "devDependencies": {
+    "web-ext": "^8.9.0"
+  }
+}
