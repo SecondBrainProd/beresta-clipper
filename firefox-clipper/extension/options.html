@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html>
   <head>
     <meta charset="utf-8" />
     <style>
@@ -25,13 +25,11 @@
     </style>
   </head>
   <body>
-    <label for="token">Токен</label>
+    <label for="token" data-i18n="optionsToken"></label>
     <input id="token" type="text" autocomplete="off" spellcheck="false" />
-    <label for="port">Порт</label>
+    <label for="port" data-i18n="optionsPort"></label>
     <input id="port" type="number" min="1" max="65535" placeholder="21120" />
-    <p>
-      Оба значения показывает Beresta: Параметры → «Вырезки». Сохраняется само.
-    </p>
+    <p data-i18n="optionsHint"></p>
     <script src="options.js"></script>
   </body>
 </html>

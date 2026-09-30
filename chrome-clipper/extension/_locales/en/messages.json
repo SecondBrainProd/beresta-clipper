@@ -1,0 +1,119 @@
+{
+  "extName": {
+    "message": "Beresta Clipper",
+    "description": "Имя расширения в браузере и в списке расширений."
+  },
+  "extDescription": {
+    "message": "Sends the open page to Beresta for Mac as an article in your Inbox — to read and highlight like a book.",
+    "description": "Описание расширения в браузере."
+  },
+  "actionTitle": {
+    "message": "Send to Beresta",
+    "description": "Подсказка кнопки на панели браузера."
+  },
+  "tokenNeededTitle": {
+    "message": "Token needed"
+  },
+  "tokenNeededBody": {
+    "message": "Open the extension settings and paste the token from Beresta: Settings → Clippings."
+  },
+  "pageUnreadableTitle": {
+    "message": "Page cannot be read"
+  },
+  "pageUnreadableBody": {
+    "message": "The browser does not let extensions read this page."
+  },
+  "wrongTokenTitle": {
+    "message": "Wrong token"
+  },
+  "wrongTokenBody": {
+    "message": "Copy the token from Beresta again (Settings → Clippings) into the extension settings."
+  },
+  "refusedTitle": {
+    "message": "Clipping not accepted"
+  },
+  "refusedBody": {
+    "message": "Beresta answered: $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "doneTitle": {
+    "message": "Done"
+  },
+  "doneBody": {
+    "message": "The page is waiting in the Beresta Inbox."
+  },
+  "duplicateTitle": {
+    "message": "Already in your library"
+  },
+  "duplicateBody": {
+    "message": "This page was clipped before, so no duplicate was made."
+  },
+  "failedTitle": {
+    "message": "Clipping was not saved"
+  },
+  "failedBody": {
+    "message": "Beresta could not save this page."
+  },
+  "optionsToken": {
+    "message": "Token"
+  },
+  "optionsPort": {
+    "message": "Port"
+  },
+  "optionsHint": {
+    "message": "Beresta shows both: Settings → Clippings. Saved as you type."
+  },
+  "queuedTitle": {
+    "message": "Saved — will go to Beresta"
+  },
+  "queuedBody": {
+    "message": "Beresta is not answering, so the page is kept here. It will be sent by itself once Beresta is open with “Accept clippings from the browser” on (Settings → Clippings)."
+  },
+  "queueFullTitle": {
+    "message": "Page not saved"
+  },
+  "queueFullBody": {
+    "message": "Beresta is not answering, and the queue is full: $COUNT$ pages are already waiting. Open Beresta so they can go, then press the button again.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "queueDeliveredTitle": {
+    "message": "Sent to Beresta"
+  },
+  "queueDeliveredBody": {
+    "message": "Pages from the queue: $COUNT$. They are waiting in the Beresta Inbox.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "queueWaitingTitle": {
+    "message": "Waiting for Beresta: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "reasonNotArticle": {
+    "message": "No article text was found on this page."
+  },
+  "pageTooBigBody": {
+    "message": "This page is too large to keep while Beresta is closed. Open Beresta and press the button again."
+  },
+  "storageFailedBody": {
+    "message": "The browser refused to keep the page while Beresta is closed. Open Beresta and press the button again."
+  }
+}
