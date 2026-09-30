@@ -2,6 +2,12 @@
 // «Сохранить», которую забыли нажать, оставила бы человека со старым токеном
 // и уведомлением «не тот токен» без видимой причины.
 
+// Подписи — из каталога браузера (`_locales`), а не в разметке: см. довод в
+// `background.js`.
+for (const node of document.querySelectorAll("[data-i18n]")) {
+  node.textContent = browser.i18n.getMessage(node.dataset.i18n);
+}
+
 const fields = {
   token: document.getElementById("token"),
   port: document.getElementById("port"),

@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Beresta Clipper"
+  },
+  "extDescription": {
+    "message": "Отправляет открытую страницу в Beresta для Mac статьёй во «Входящие» — читать и выделять, как книгу."
+  },
+  "actionTitle": {
+    "message": "В Beresta"
+  },
+  "tokenNeededTitle": {
+    "message": "Нужен токен"
+  },
+  "tokenNeededBody": {
+    "message": "Откройте настройки расширения и вставьте токен из Beresta: Параметры → «Вырезки»."
+  },
+  "pageUnreadableTitle": {
+    "message": "Страница не читается"
+  },
+  "pageUnreadableBody": {
+    "message": "Эту страницу браузер не даёт прочитать расширениям."
+  },
+  "wrongTokenTitle": {
+    "message": "Не тот токен"
+  },
+  "wrongTokenBody": {
+    "message": "Скопируйте токен заново из Beresta (Параметры → «Вырезки») в настройки расширения."
+  },
+  "refusedTitle": {
+    "message": "Вырезка не принята"
+  },
+  "refusedBody": {
+    "message": "Beresta ответила: $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "doneTitle": {
+    "message": "Готово"
+  },
+  "doneBody": {
+    "message": "Страница ждёт во «Входящих» Beresta."
+  },
+  "duplicateTitle": {
+    "message": "Уже в библиотеке"
+  },
+  "duplicateBody": {
+    "message": "Эта страница вырезалась раньше — дубль не заведён."
+  },
+  "failedTitle": {
+    "message": "Вырезка не завелась"
+  },
+  "failedBody": {
+    "message": "Beresta не смогла сохранить эту страницу."
+  },
+  "optionsToken": {
+    "message": "Токен"
+  },
+  "optionsPort": {
+    "message": "Порт"
+  },
+  "optionsHint": {
+    "message": "Оба значения показывает Beresta: Параметры → «Вырезки». Сохраняется само."
+  },
+  "queuedTitle": {
+    "message": "Сохранено — уйдёт в Beresta"
+  },
+  "queuedBody": {
+    "message": "Beresta не отвечает, поэтому страница сохранена здесь. Она уйдёт сама, как только Beresta будет открыта с включённым «Принимать вырезки из браузера» (Параметры → «Вырезки»)."
+  },
+  "queueFullTitle": {
+    "message": "Страница не сохранена"
+  },
+  "queueFullBody": {
+    "message": "Beresta не отвечает, а очередь полна: уже ждут $COUNT$ стр. Откройте Beresta, чтобы они ушли, и нажмите кнопку ещё раз.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "queueDeliveredTitle": {
+    "message": "Ушло в Beresta"
+  },
+  "queueDeliveredBody": {
+    "message": "Страниц из очереди: $COUNT$. Они ждут во «Входящих» Beresta.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "queueWaitingTitle": {
+    "message": "Ждут Beresta: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "reasonNotArticle": {
+    "message": "На этой странице не нашлось текста статьи."
+  },
+  "pageTooBigBody": {
+    "message": "Страница слишком велика, чтобы держать её, пока Beresta закрыта. Откройте Beresta и нажмите кнопку ещё раз."
+  },
+  "storageFailedBody": {
+    "message": "Браузер не дал сохранить страницу, пока Beresta закрыта. Откройте Beresta и нажмите кнопку ещё раз."
+  }
+}
